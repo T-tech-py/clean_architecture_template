@@ -42,4 +42,45 @@ extension CustomNullableNum on num?{
     );
   }
 
+  ///Returns boolean
+  bool get isZero {
+    num value = this ?? 0.0;
+
+    return value == 0.0 || value == 0;
+  }
+
+  ///Returns boolean
+  bool get isGreaterThanOne {
+    num value = this ?? 1.0;
+
+    return value > 1.0 || value > 1;
+  }
+
+  ///Returns boolean
+  bool get isLesserThanOne {
+    num value = this ?? 1.0;
+
+    return value < 1.0 || value < 1;
+  }
+
+  ///Returns boolean
+  bool get isGreaterThanZero {
+    num value = this ?? 0.0;
+
+    return value > 0.0 || value > 0;
+  }
+
+  ///Returns boolean
+  bool get isGreaterOrEqualToZero {
+    num value = this ?? 0.0;
+
+    return value >= 0.0 || value >= 0;
+  }
+
+  ///Returns boolean
+  bool get isLesserThanZero {
+    num value = this ?? 0.0;
+
+    return value < 0.0 || value < 0;
+  }
 }
