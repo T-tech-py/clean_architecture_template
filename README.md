@@ -1,10 +1,11 @@
-# clean_artechture_template
+# clean_architecture_template
 
-A new Flutter project.
+Oluwatobi's Code template for Clean Architecture.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+You can clone the project on github i've made it public. Then goto the pubspec.yaml file in line 1
+change the name value to your app name and run flutter pub get in your terminal
 
 A few resources to get you started if this is your first Flutter project:
 
